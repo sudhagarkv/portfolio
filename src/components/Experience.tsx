@@ -1,55 +1,48 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase, GraduationCap, Code, Users } from 'lucide-react';
+import { Briefcase, GraduationCap, Users, Cpu } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Teaching Assistant',
-      company: 'Sri Ramachandra Institute, Chennai, India',
-      period: 'February 2023 - June 2023',
-      icon: <GraduationCap className="w-6 h-6" />,
-      color: 'from-blue-500 to-cyan-500',
+      title: 'Mobile Application Developer',
+      company: 'The KeelWorks Foundation, Oak Harbor, WA, USA',
+      period: 'June 2025 – Present',
+      icon: <Cpu className="w-6 h-6" />,
+      color: 'from-purple-500 to-pink-500',
       responsibilities: [
-        'Assisted faculty in designing and conducting hands-on Cybersecurity & IoT labs, blending theory with real-world security practices using Kali Linux, VirtualBox, and custom VM environments.',
-        'Delivered live demonstrations and guided exercises on network forensics with Wireshark, vulnerability exploitation using Metasploit Framework, and web security testing with Burp Suite.',
-        'Taught wireless security concepts by leading practical sessions on Wi-Fi cracking and protection techniques using Aircrack-ng and related wireless scanning tools.',
-        'Introduced students to reverse engineering fundamentals through APK decompilation and static analysis using Jadx-GUI, plus explained dynamic behavior tracing with sandboxed test setups.',
-        'Authored clear lab manuals and troubleshooting guides covering setup, configuration, and safe execution of offensive security tasks using Python and Bash scripts for automation.',
-        'Provided real-time debugging and mentoring to help students analyze attack payloads, interpret scan outputs, and patch vulnerabilities, reinforcing secure coding practices.',
-        'Updated lab scenarios each semester to reflect evolving threats and current industry best practices, improving student preparedness for real security assessments.'
+        'Developed and deployed a content-sharing app in Java + JavaScript with Google Sign-In and payments, growing the user community by 18%.',
+        'Built a scalable backend on PostgreSQL + AWS; reduced content load times by 23% via query tuning and caching.',
+        'Automated releases with Docker + GitLab CI/CD, shortening release cycles by 10% and improving deployment reliability.',
+        'Worked in Agile sprints with Jira: backlog grooming, ticket ownership, reviews, and on-time feature delivery.'
       ]
     },
     {
-      title: 'App Developer',
-      company: 'Attri Consultancy, Gurgaon, India',
-      period: 'August 2021 - January 2022',
-      icon: <Code className="w-6 h-6" />,
-      color: 'from-purple-500 to-pink-500',
+      title: 'Teaching Assistant (Cybersecurity & IoT)',
+      company: 'Sri Ramachandra Institute of Higher Education and Research, Chennai, India',
+      period: 'February 2023 – June 2023',
+      icon: <GraduationCap className="w-6 h-6" />,
+      color: 'from-blue-500 to-cyan-500',
       responsibilities: [
-        'Led the end-to-end development of a content creation and purchase mobile app for network marketing, building the frontend in React Native and backend in Java Spring Boot.',
-        'Implemented Google Sign-In for secure OAuth authentication, generating access tokens used to authorize API calls for user login and subscription management.',
-        'Designed multiple REST APIs and SQL database schemas in AWS RDS, handling user profiles, uploaded media (ePub, PDFs, videos), subscription purchases, and transaction records.',
-        'Developed note-taking and reminders features using MongoDB for NoSQL storage and backend-triggered push notifications for scheduled cloud events.',
-        'Configured secure media storage in AWS S3, delivered via CloudFront CDN with time-bound signed URLs; managed secrets with AWS Secrets Manager and DNS with Route 53.',
-        'Containerized the app using Docker with multi-stage builds, published images to AWS ECR, and automated CI/CD with GitLab pipelines and Ansible SSH to deploy on AWS EC2, using Nginx, Let’s Encrypt SSL, and a load balancer for secure, scalable delivery.'
+        'Guided 80+ students through hands-on labs: vulnerability scanning, traffic analysis, and secure system configurations using Wireshark and Linux.',
+        'Delivered reverse engineering workshops with JADX and Apktool, improving student skills in mobile app security analysis.',
+        'Provided one-on-one mentoring, debugging lab setups, and resolving IT troubleshooting issues to improve student lab completion rates.',
+        'Authored lab manuals and updated course material to align with evolving cybersecurity threats and practices.'
       ]
     },
     {
       title: 'Web Developer',
       company: 'Youth India Foundation, Bhubaneswar, India',
-      period: 'January 2021 - June 2021',
+      period: 'January 2021 – June 2021',
       icon: <Users className="w-6 h-6" />,
       color: 'from-green-500 to-teal-500',
       responsibilities: [
-        'Built and deployed a static NGO website to raise awareness about events and services, using React.js, Next.js, and React MUI for responsive, modern UI components.',
-        'Configured Webpack and Babel with custom plugin loaders to handle SVG, PNG, and JPEG formats efficiently for rendering gallery and media assets.',
-        'Deployed development builds via Vercel for rapid preview, then migrated the production site to AWS Amplify for scalable hosting with built-in CI/CD.',
-        'Integrated AWS WAF (Web Application Firewall) to protect the live site from DDoS attacks and malicious requests, enhancing trust and uptime.',
-        'Automated Infrastructure as Code (IaC) by writing Terraform scripts to provision Route 53 DNS, AWS Certificate Manager, and Amplify settings; managed deployment via GitHub Actions CI/CD.',
-        'Managed security configurations and monitoring for S3 buckets, domain routing, and SSL certificates, ensuring a reliable, secure, and maintainable static web presence.'
-      ]
-    }
+        'Developed and deployed a secure, responsive website with React.js and Next.js, hosted on AWS Amplify, improving site performance and uptime reliability by 8%.',
+        'Automated deployment pipelines with Terraform and GitHub Actions, enabling scalable CI/CD workflows and reducing manual setup time.',
+        'Collaborated with a small team to design clean UI components, implement SEO-friendly pages, and ensure cross-browser compatibility.',
+        'Integrated security best practices including HTTPS, access control for content, and monitoring through AWS Amplify’s built-in alerts.'
+        ]
+    },
   ];
 
   return (
@@ -65,7 +58,7 @@ const Experience: React.FC = () => {
             <span className="gradient-text">Work Experience</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Building secure solutions and mentoring the next generation of cybersecurity professionals
+            Building secure solutions and mentoring the next generation of IT and cybersecurity professionals
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-6"></div>
         </motion.div>
