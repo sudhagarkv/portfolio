@@ -5,7 +5,7 @@ import { Briefcase, GraduationCap, Users, Cpu } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Mobile Application Developer',
+      title: 'Mobile Developer',
       company: 'The KeelWorks Foundation, Oak Harbor, WA, USA',
       period: 'June 2025 – November 2025',
       icon: <Cpu className="w-6 h-6" />,
@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      title: 'Teaching Assistant (Cybersecurity & IoT)',
+      title: 'Teaching Assistant',
       company: 'Sri Ramachandra Institute of Higher Education and Research, Chennai, India',
       period: 'February 2023 – June 2023',
       icon: <GraduationCap className="w-6 h-6" />,

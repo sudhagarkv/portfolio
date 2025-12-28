@@ -83,8 +83,7 @@ const Footer: React.FC = () => {
               ))}
             </div>
             <p className="text-gray-400 text-sm">
-              Looking for opportunities in Software Development, 
-              Cybersecurity Analysis, and challenging IT roles.
+              Learning continuously and working hard and smart to grow as an engineer.
             </p>
           </div>
         </div>

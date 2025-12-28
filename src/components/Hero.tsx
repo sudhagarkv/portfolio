@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = "Cybersecurity & Software Development Professional";
+  const fullText = "Associate Software Engineer";
 
   useEffect(() => {
     let i = 0;
