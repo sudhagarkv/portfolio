@@ -14,11 +14,6 @@ const Footer: React.FC = () => {
       href: 'https://www.linkedin.com/in/sudhagar-kalyanasundaram/',
       label: 'LinkedIn'
     },
-    {
-      icon: <Download className="w-5 h-5" />,
-      href: 'https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing',
-      label: 'Resume'
-    }
   ];
 
   const scrollToTop = () => {

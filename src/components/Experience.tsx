@@ -7,14 +7,13 @@ const Experience: React.FC = () => {
     {
       title: 'Mobile Application Developer',
       company: 'The KeelWorks Foundation, Oak Harbor, WA, USA',
-      period: 'June 2025 – Present',
+      period: 'June 2025 – November 2025',
       icon: <Cpu className="w-6 h-6" />,
       color: 'from-purple-500 to-pink-500',
       responsibilities: [
         'Developed and deployed a content-sharing app in Java + JavaScript with Google Sign-In and payments, growing the user community by 18%.',
         'Built a scalable backend on PostgreSQL + AWS; reduced content load times by 23% via query tuning and caching.',
-        'Automated releases with Docker + GitLab CI/CD, shortening release cycles by 10% and improving deployment reliability.',
-        'Worked in Agile sprints with Jira: backlog grooming, ticket ownership, reviews, and on-time feature delivery.'
+        'Automated releases with Docker + GitLab CI/CD, shortening release cycles by 10% and improving deployment reliability.'
       ]
     },
     {
@@ -26,8 +25,7 @@ const Experience: React.FC = () => {
       responsibilities: [
         'Guided 80+ students through hands-on labs: vulnerability scanning, traffic analysis, and secure system configurations using Wireshark and Linux.',
         'Delivered reverse engineering workshops with JADX and Apktool, improving student skills in mobile app security analysis.',
-        'Provided one-on-one mentoring, debugging lab setups, and resolving IT troubleshooting issues to improve student lab completion rates.',
-        'Authored lab manuals and updated course material to align with evolving cybersecurity threats and practices.'
+        'Provided one-on-one mentoring, debugging lab setups, and resolving IT troubleshooting issues to improve student lab completion rates.'
       ]
     },
     {
@@ -39,8 +37,7 @@ const Experience: React.FC = () => {
       responsibilities: [
         'Developed and deployed a secure, responsive website with React.js and Next.js, hosted on AWS Amplify, improving site performance and uptime reliability by 8%.',
         'Automated deployment pipelines with Terraform and GitHub Actions, enabling scalable CI/CD workflows and reducing manual setup time.',
-        'Collaborated with a small team to design clean UI components, implement SEO-friendly pages, and ensure cross-browser compatibility.',
-        'Integrated security best practices including HTTPS, access control for content, and monitoring through AWS Amplify’s built-in alerts.'
+        'Collaborated with a small team to design clean UI components, implement SEO-friendly pages, and ensure cross-browser compatibility.'
         ]
     },
   ];

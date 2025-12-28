@@ -86,17 +86,6 @@ const Navigation: React.FC = () => {
             >
               <Linkedin size={20} />
             </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors duration-300"
-            >
-              <Download size={16} />
-              <span>Resume</span>
-            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}

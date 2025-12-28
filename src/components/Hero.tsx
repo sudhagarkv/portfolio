@@ -114,16 +114,6 @@ const Hero: React.FC = () => {
             >
               Explore My Work
             </motion.button>
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300"
-            >
-              T-Mobile
-            </motion.a>
           </motion.div>
         </motion.div>
       </div>

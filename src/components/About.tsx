@@ -69,17 +69,17 @@ const About: React.FC = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-300 leading-relaxed">
-              Hi, I'm <span className="text-blue-400 font-semibold">Sudhagar Kalyanasundaram</span> - a passionate, 
-              self-driven cybersecurity and software development professional with a proven track record of turning 
-              complex ideas into secure, reliable solutions. I thrive on tackling real-world challenges through 
-              clean code, threat modeling, and secure architecture.
+              Hi, I’m <span className="text-blue-400 font-semibold"> Sudhagar Kalyanasundaram </span>, an Associate Software Engineer 
+              at T-Mobile and a recent master’s graduate in Cybersecurity and Information Assurance from the University of Michigan-Dearborn.
+              I work on building secure, scalable, and reliable digital experiences, with a strong focus on clean code,
+              system reliability, and security-first design. I enjoy solving real customer problems and contributing to 
+              platforms that reduce friction and deliver meaningful impact at scale.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I strongly believe hard work and curiosity turn fresh graduates into industry game-changers. 
-              Now I'm looking to contribute as a <span className="text-purple-400 font-semibold">Software Developer</span>, 
-              <span className="text-cyan-400 font-semibold"> Cybersecurity Analyst</span>, or in any challenging IT role 
-              where I can deliver measurable results and grow alongside innovative teams.
-            </p>
+              I’m motivated by continuous learning, collaboration, and ownership, and I enjoy growing alongside teams that value quality,
+              innovation, and customer-centric engineering. I strongly believe<span className="text-purple-400 font-semibold"> hard work 
+              and curiosity turn fresh graduates</span> into industry game-changers. 
+              </p>
             
             <motion.div
               whileHover={{ scale: 1.02 }}
@@ -87,8 +87,8 @@ const About: React.FC = () => {
             >
               <h3 className="text-xl font-semibold text-white mb-3">Current Focus</h3>
               <p className="text-gray-300">
-                Specializing in DevSecOps practices, AI-driven security solutions, and building 
-                scalable applications that prioritize security from the ground up.
+                Learning the systems and codebase, contributing to ongoing development work, and working 
+                closely with the team to deliver reliable, high-quality software.
               </p>
             </motion.div>
           </motion.div>
