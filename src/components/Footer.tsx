@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
     },
     {
       icon: <Download className="w-5 h-5" />,
-      href: 'https://drive.google.com/file/d/1NoEc8kf4HiZnNRsMjOUk_ME7p382P71Z/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing',
       label: 'Resume'
     }
   ];

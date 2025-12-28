@@ -89,7 +89,7 @@ const Navigation: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1NoEc8kf4HiZnNRsMjOUk_ME7p382P71Z/view?usp=sharing"
+              href="https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors duration-300"
@@ -148,7 +148,7 @@ const Navigation: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://drive.google.com/file/d/1NoEc8kf4HiZnNRsMjOUk_ME7p382P71Z/view?usp=sharing"
+                href="https://drive.google.com/file/d/18EwsUqUk1brLNFrVuBMQZJ3vq3_KX0bh/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors duration-300"
